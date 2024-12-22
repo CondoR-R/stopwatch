@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Секундомер</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p class="time">
+        <span class="minute time__span">00</span>
+        :
+        <span class="second time__span">00</span>
+        :
+        <span class="millisecond time__span">00</span>
+      </p>
+      <div class="button-box">
+        <button class="start btn">Старт</button>
+        <button class="pause btn">Пауза</button>
+        <button class="reset btn">Сброс</button>
+        <button class="fix-it btn">Зафиксировать</button>
+      </div>
+    </div>
+    <div class="container fix-it-box hidden">
+        <!-- <p class="show-time"></p> -->
+    </div>
+  </body>
+</html>
